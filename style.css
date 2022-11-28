@@ -1,0 +1,53 @@
+* {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+}
+body {
+          margin: 0;
+          padding: 0;
+}
+.heading {
+  background-color: rgb(0, 0, 0);     
+  color: #fff;   
+  box-shadow: 20px 20px 30px rgba(255, 170, 11, 0.6);
+  padding:5px;
+}
+.heading h2 {
+font-family: 700;
+letter-spacing: 1px;
+font-family:'Roboto Mono' , monospace;
+text-decoration: underline;
+}
+.footer {
+          background: rgb(228, 225, 225);
+          background: linear-gradient(90deg, rgba(228, 225, 225, 1) 0%, rgba(255, 255, 255, 1) 83%);
+          padding: 10px;
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+          
+}
+.footer h4 {
+          font-size: 20px;
+          font-weight: 900;
+          letter-spacing: 2px;
+          color: #333;
+
+}
+canvas {
+          border: 5px solid #333;
+          border-radius: 20px;
+          margin: 100px;
+          padding: 20px;
+          animation: shadow 1s infinite;
+}
+@keyframes shadow {
+          from {
+                    box-shadow: 10px 10px 20px rgba(221, 230, 51,0.6);
+
+          }
+          to {
+                    box-shadow: 10px 10px 10px rgba(221, 230, 51, 0.6);
+          }
+}
