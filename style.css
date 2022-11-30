@@ -35,11 +35,12 @@ text-decoration: underline;
           color: #333;
 
 }
+video {
+  margin-left: 100px;
+}
 canvas {
           border: 5px solid #333;
           border-radius: 20px;
-          margin: 100px;
-          padding: 20px;
           animation: shadow 1s infinite;
 }
 @keyframes shadow {
